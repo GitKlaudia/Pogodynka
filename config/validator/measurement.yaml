@@ -1,0 +1,19 @@
+App\Entity\Measurement:
+    properties:
+        Precipitation:
+            - Range:
+                  min: 0
+                  max: 100
+                  groups: [create, edit]
+        Humidity:
+            - Range:
+                  min: 0
+                  max: 100
+                  groups: [create, edit]
+        Temperature:
+            -   Range:
+                    min: -90
+                    max: 60
+                    groups: [create, edit]
+
+
